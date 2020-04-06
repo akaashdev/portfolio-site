@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Akaash Dev Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaashdev/portfolio-site.git"
+  },
+  "author": "Akaash Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akaashdev/portfolio-site/issues"
+  },
+  "homepage": "http://akaashdev.github.io/portfolio-site/",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
