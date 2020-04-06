@@ -4,7 +4,7 @@
   "description": "Akaash Dev Portfolio",
   "main": "index.html",
   "scripts": {
-    "deploy": "gh-pages -d site"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/akaashdev/portfolio-site/issues"
   },
-  "homepage": "http://akaashdev.github.io/portfolio-site/",
+  "homepage": "https://akaashdev.github.io/portfolio-site/",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
