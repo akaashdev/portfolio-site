@@ -460,8 +460,8 @@ table {
 	background-color: #FBFBFB;
 }
 .hero h1 {
-	font-size: 120px;
-	letter-spacing: -8px;
+	font-size: 100px;
+	letter-spacing: -3px;
 	margin: 0;
 	font-weight: 600;
 	line-height: 95px;
@@ -472,12 +472,12 @@ table {
 	/* display:inline-block; */
 }
 .hero h3 {
-	font-size: 20px;
+	font-size: 15px;
 	margin:0;
 	padding:0;
 	opacity:0.5;
 	color: #E04343;
-	letter-spacing: 18px;
+	letter-spacing: 11px;
 	line-height: 50px;
 	text-transform: uppercase;
 }
