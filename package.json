@@ -4,7 +4,7 @@
   "description": "Akaash Dev Portfolio",
   "main": "index.html",
   "scripts": {
-    "deploy": "gh-pages -d portfolio-site"
+    "deploy": "gh-pages -d site"
   },
   "repository": {
     "type": "git",
