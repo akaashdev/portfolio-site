@@ -1,5 +1,6 @@
-# JohnDoe
-A Responsive Free One Page Portfolio Website template
+# Portfolio Site
+
+Personal Portfolio Site.
 
 
 
