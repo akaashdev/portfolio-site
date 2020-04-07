@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/akaashdev/portfolio-site/issues"
   },
-  "homepage": "http://akaashdev.github.io/portfolio-site/",
+  "homepage": "https://akaashdev.github.io/portfolio-site/",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
