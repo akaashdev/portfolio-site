@@ -464,7 +464,7 @@ table {
 .gilroy p {
 	font-family: "Gilroy-Light";
 	font-weight: lighter;
-	font-size: 24px;
+	font-size: 22px;
 	color: #FBFBFB;
 }
 
@@ -917,39 +917,61 @@ img.grayscale:hover {
 	color:#424242;
 	border: solid 1px #424242;
 }
-/* ==========================================================================Team========================================================================== */
-.team img {
-	margin-bottom:20px;
-}
-ul.social-buttons {
+
+
+/* ==========================================================================Social Profiles========================================================================== */
+ul.social-profiles {
 	list-style:none;
 	margin:0;
 	padding:0;
 }
-ul.social-buttons li {
+
+ul.social-profiles li {
 	display:inline-block;
 	margin-right:10px;
 }
-ul.social-buttons li:last-child {
+
+ul.social-profiles li:last-child {
 	margin-right:0;
 }
-.social-btn {
-	width:40px;
-	height:40px;
-	background: #E04343;
-	display:inline-block;
-	color:#fff;
-	font-size:17px;
-	line-height:40px;
-	text-align:center;
+
+.social-profiles img {
+	height: 28px;
+	width: 28px;
 }
-.social-btn:hover,.social-btn:focus {
-	background: rgba(255, 232, 0, 1);
-	color: #E04343;
+
+.social-profiles a {
+	border-bottom: 0;
+	box-shadow: 0;
 }
-.social {
-	margin-top: 25px
+
+.contact-detail {
+	padding: 0;
 }
+
+.contact-detail h4 {
+	font-family: "Gilroy-Light";
+	font-size: 20px;
+	color: #fbfbfb;
+	line-height: 22px;
+	font-weight: bold;
+	margin: 18px 0;
+}
+
+.contact-detail span {
+	font-family: "Gilroy-Light";
+	font-size: 36px;
+	color: #FFE800
+}
+
+.contact-img img {
+	width: 320px;
+	height: 320px;
+	border-radius: 160px;
+	padding: 30px;
+    object-fit: cover;
+}
+
 /* ==========================================================================Contact========================================================================== */
 .up-btn {
 	width:55px;
