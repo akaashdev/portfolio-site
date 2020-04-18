@@ -197,3 +197,37 @@
     filter: alpha(opacity=70);
     font-size: 16px; 
 }
+
+.work-card {
+    padding: 0 0;
+    height: 240px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.work-card img {
+    display: flex;
+    overflow: hidden;
+    flex-shrink: 0;
+    height: auto;
+    max-width: 240px;
+}
+
+.work-card span {
+    font-family: "Gilroy-Light";
+    font-style: italic;
+    font-size: 17px;
+}
+
+.work-card h3 {
+    font-family: "Gilroy-Light";
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.work-card h4 {
+    font-family: "Gilroy-Light";
+    font-weight: bold;
+    font-size: 19px;
+}
