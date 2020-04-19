@@ -1177,6 +1177,12 @@ ul.slides li {
 	.wp2,.wp4,.wp5,.light-box {
 		margin-bottom: 30px;
 	}
+
+	.hero {
+		background: url('../img/header-bg-cropped.jpg') right bottom no-repeat;
+		background-size: contain;
+		background-color: #fbfbfb;
+	}
 }
 /* xGA iPad */
 @media screen and (max-width:1024px) {
