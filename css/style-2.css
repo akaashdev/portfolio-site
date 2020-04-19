@@ -238,30 +238,26 @@
     border-radius: 6px;
     background-color: #ffffff;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.04), 0 10px 24px 0 rgba(0, 0, 0, 0.02);
-    margin: 1.2em 0;
+    margin: 24px 0;
     transition: 0.4s;
     padding: 0 0;
 }
 
 .projects-card img {
-    display: flex;
-    overflow: hidden;
-    flex-shrink: 0;
     width: 240px;
     height: 240px;
     object-fit: cover;
+    vertical-align: bottom;
 }
 
 .projects-card h3 {
     font-family: "Gilroy-ExtraBold";
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 12px;
 }
 
 .projects-card p {
     font-family: "Gilroy-Light";
-    font-size: 18px;
-    line-height: 20px!important;
     color: #353535;
     margin-top: 0;
 }
