@@ -266,3 +266,25 @@
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.04), 0 10px 24px 0 rgba(0, 0, 0, 0.02);
     transform: scale(1.04, 1.04);
 }
+
+
+footer {
+    font-family: "Gilroy-Light";
+    padding:40px 0 30px;
+}
+
+
+footer span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer p {
+    line-height: 19px!important;
+    font-size: 14px;
+}
+
+footer a {
+    color:#a1a9b0;
+    border-bottom: 1px dotted;
+}
