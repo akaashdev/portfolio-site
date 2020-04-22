@@ -31,21 +31,6 @@ p {
 	font-size: 14px
 }
 
-h2 {
-	font-size: 15px;
-	color: #353535 !important;
-	text-transform: uppercase;
-	font-weight: 700
-}
-
-h2::after {
-	content: " ";
-	border: solid 1px #ccc;
-	display: block;
-	width: 65px;
-	margin: 20px auto
-}
-
 h6 {
 	font-size: 15px;
 	color: #8c8c8c;
