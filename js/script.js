@@ -11,21 +11,26 @@ $(document).ready(function() {
 	});
 	$('.wp2').waypoint(function() {
 		$('.wp2').addClass('animated fadeInUp');
+		$('.projects-card').each(function(index, item) { manageItemAnimation(item, manageProjectItem(index, item)) });
 	}, {
 		offset: '75%'
 	});
 	$('.wp3').waypoint(function() {
 		$('.wp3').addClass('animated fadeInDown');
+		$('.work-card').each(function(index, item) { manageItemAnimation(item, manageWorkItem(index, item)) });
 	}, {
 		offset: '75%'
 	});
 	$('.wp4').waypoint(function() {
 		$('.wp4').addClass('animated fadeInDown');
+		$('.progress-wrap').each(function(index, item) { manageItemAnimation(item, manageSkillItem(index, item)) });
 	}, {
 		offset: '75%'
 	});
 	$('.wp5').waypoint(function() {
 		$('.wp5').addClass('animated fadeInUp');
+		$('.contact-detail').addClass('animated fadeInLeft');
+		$('.contact-img').addClass('animated fadeInRight');
 	}, {
 		offset: '75%'
 	});
@@ -34,6 +39,28 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 	});
+
+
+	function manageItemAnimation(item, animation) {
+		item.classList.add('animated');
+		animation;
+	}
+
+	function manageSkillItem(index, item) {
+		index % 2 ? item.classList.add('fadeInRight') : item.classList.add('fadeInLeft');
+		item.style.animationDelay = (Math.trunc(index / 2) * 0.5) + 's';
+	}
+
+	function manageWorkItem(index, item) {
+		item.classList.add('zoomIn');
+		item.classList.add('fadeIn');
+		item.style.animationDelay = (index * 0.4) + 's';
+	}
+
+	function manageProjectItem(index, item) {
+		index % 2 ? item.classList.add('fadeInRight') : item.classList.add('fadeInLeft');
+		item.style.animationDelay = (index * 0.4) + 's';
+	}
 
 });
 

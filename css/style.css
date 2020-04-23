@@ -602,7 +602,7 @@ button, button:active, button:focus, button:hover {
 	visibility: hidden
 }
 
-.fadeInDown, .fadeInLeft, .fadeInUp {
+.zoomIn, .fadeIn, .fadeInDown, .fadeInLeft, .fadeInRight, .fadeInUp, .bounceIn {
 	visibility: visible
 }
 
@@ -611,10 +611,6 @@ button, button:active, button:focus, button:hover {
 	-webkit-animation-delay: .5s
 }
 
-.delay-1s {
-	animation-delay: 1s;
-	-webkit-animation-delay: 1s
-}
 
 @media screen and (max-width:414px) {
 	.hero h1 {
