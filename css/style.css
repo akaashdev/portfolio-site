@@ -140,7 +140,7 @@ code {
 p {
 	font-size: 14px;
 	font-weight: 100;
-	line-height: 28px !important
+	line-height: 28px;
 }
 
 menu, ul {
@@ -181,6 +181,7 @@ button {
 
 button {
 	-webkit-appearance: button;
+	appearance: button;
 	cursor: pointer
 }
 
@@ -354,6 +355,37 @@ button::-moz-focus-inner {
 	font-weight: lighter;
 	font-size: 22px;
 	color: #fbfbfb
+}
+
+.legal h1 {
+	font-family: Gilroy-ExtraBold;
+	font-weight: bolder;
+	font-size: 60px;
+	margin: 0 0;
+	color: #353535
+}
+
+.legal p {
+	font-family: Gilroy-Light;
+	font-weight: lighter;
+	font-size: 16px;
+	color: black;
+	line-height: 18px;
+}
+
+.legal strong {
+	font-family: Gilroy-ExtraBold;
+	font-size: 18px;
+	color: #555;
+	font-weight: bold;
+}
+
+.legal li {
+	font-family: Gilroy-Light;
+	font-weight: lighter;
+	font-size: 16px;
+	color: black;
+	line-height: 22px;
 }
 
 .hero {
